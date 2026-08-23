@@ -3,7 +3,10 @@
   <br/>
   <a href="https://plankhq.io">plankhq</a> - agent first ci/cd and workflow orchestration
 </div>
-Install Plank CLI & Plank Local runtime with:
+
+<br/>
+
+## Installation
 
 ```sh
 brew install plankhq/tap/plank
