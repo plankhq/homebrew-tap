@@ -18,7 +18,7 @@ class Plank < Formula
 
   def install
     bin.install "plank"
-    bin.install "plank-local"
+    bin.install "plank-tower"
   end
 
   test do
