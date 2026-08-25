@@ -5,21 +5,21 @@ class Plank < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/plankhq/plank-local/releases/download/v0.0.2/plank-local-0.0.2-aarch64-apple-darwin.tar.gz"
-      sha256 "1d084cb1fa0aaef4af5bba936df8d4097d4b06d7fb3dd9c88d05f2228809e91a"
+      url "https://github.com/plankhq/homebrew-tap/releases/download/v0.0.2/plank-local-0.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "c36572ef9805c4861010eee7806fd5a4d8c3aa1ce7e8548ef67a6b69be3a7755"
     else
-      url "https://github.com/plankhq/plank-local/releases/download/v0.0.2/plank-local-0.0.2-x86_64-apple-darwin.tar.gz"
-      sha256 "3c722abd62876b14a4d9a2f729c956c1d039790d9b5962f56054a8782b858332"
+      url "https://github.com/plankhq/homebrew-tap/releases/download/v0.0.2/plank-local-0.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "c7333beccee4429d340315a82fb74fab3711de1a684969384dacb425e7821dcb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/plankhq/plank-local/releases/download/v0.0.2/plank-local-0.0.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5f34219dcc285ac637d4a4720ff0e5e5f25c7af2299afc986583cb5bb2199a4c"
+      url "https://github.com/plankhq/homebrew-tap/releases/download/v0.0.2/plank-local-0.0.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6fe5985a984dea225764e3cd3c1905914d641b719a94b81568a7a1fb4697550d"
     else
-      url "https://github.com/plankhq/plank-local/releases/download/v0.0.2/plank-local-0.0.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4e97d013236fcd79f3662c751ca4f98f95d74ff471d9bd801dc0ad3578d67d88"
+      url "https://github.com/plankhq/homebrew-tap/releases/download/v0.0.2/plank-local-0.0.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b81a1b61533ed140e7aac139e7e21b96976bbf2435ed4ed6cdf918028b1de8c2"
     end
   end
 
