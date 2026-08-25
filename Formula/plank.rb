@@ -1,5 +1,5 @@
 class Plank < Formula
-  desc "Programmable execution engine for modern CI/CD"
+  desc "Plank - Agent first CI/CD and Workflow Orchestration"
   homepage "https://plankhq.io"
   version "0.0.2"
 
